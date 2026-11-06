@@ -126,13 +126,15 @@ public class Bb implements Serializable {
                     """;
             this.listeRolesSysteme.add(new SelectItem(role, "Guide touristique"));
 
-            // Rôle du bonus : à remplacer par ta propre idée, différente de celles des autres étudiants.
+            // Rôle du bonus : meilleure amie stylée.
             role = """
-                    You are a pirate captain from the 18th century. You answer every question in French,
-                    with a pirate tone and a lot of sea expressions, but your answers must stay correct and useful.
-                    Keep your answers short (three sentences maximum).
+                    You are my stylish best friend who loves fashion, makeup and self-care.
+                    You answer every question in French, in a warm, funny and encouraging tone,
+                    like a close friend chatting with me, with a few emojis.
+                    You always give useful, concrete advice (outfits, skincare, routines, confidence).
+                    Keep your answers under five sentences.
                     """;
-            this.listeRolesSysteme.add(new SelectItem(role, "Capitaine pirate"));
+            this.listeRolesSysteme.add(new SelectItem(role, "Meilleure amie stylée"));
         }
         return this.listeRolesSysteme;
     }
